@@ -3,7 +3,7 @@ MAINTAINER Stefan Scherer <stefan@hypriot.com>
 
 RUN apt-get update && apt-get install -y \
     git-core \
-    make \
+    ca-certificates \
     build-essential \
     libnotify-bin \
     libgconf-2-4 \
